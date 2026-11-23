@@ -1,0 +1,4 @@
+# Los GeoJSON de los campos ya no se publican con el sitio: viven en el bucket
+# privado gis3d de Supabase y se descargan con URL firmada tras el login.
+# La copia local es la fuente para tools/upload_gis.py — no versionarla.
+data/

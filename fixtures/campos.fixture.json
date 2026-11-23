@@ -1,0 +1,10 @@
+[
+  {
+    "id": "demo_relieve",
+    "nombre": "Campo sintético (relieve)",
+    "cliente": "Demo",
+    "maxzoom": 17,
+    "pathInicial": "demo_relieve/inicial.geojson",
+    "pathMulti": "demo_relieve/multifuncional.geojson"
+  }
+]

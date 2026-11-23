@@ -1,0 +1,327 @@
+{
+  "aviso": "Campo SINTÉTICO generado por dev/fixtures/gen_demo_relieve.mjs. Todo inventado salvo el relieve público (SRTM/terrarium).",
+  "semilla": 20261121,
+  "lugar": {
+    "zona": "Tandil",
+    "centro": {
+      "lat": -37.41,
+      "lon": -59.25
+    },
+    "candidatoId": "tandil-N"
+  },
+  "campoHa": 491.9,
+  "reliefStats": {
+    "mascaraCampo": {
+      "n": 5117,
+      "desvioResidual": 4.6,
+      "pendienteP95": 3.84,
+      "rangoP2P98": 26.4,
+      "media": 213.4,
+      "inclinacionRegionalPct": 0.82
+    },
+    "bboxCampo": {
+      "n": 5893,
+      "desvioResidual": 4.8,
+      "pendienteP95": 3.87,
+      "rangoP2P98": 27.4,
+      "media": 213.9,
+      "inclinacionRegionalPct": 0.81
+    }
+  },
+  "candidatos": [
+    {
+      "id": "tandil-N",
+      "zona": "Tandil",
+      "lat": -37.41,
+      "lon": -59.25,
+      "elegido": true,
+      "desvioResidual": 4.32,
+      "pendienteP95": 3.81,
+      "rangoP2P98": 24.7,
+      "media": 213,
+      "cumple": true,
+      "esSierra": false
+    },
+    {
+      "id": "tandil-NE",
+      "zona": "Tandil",
+      "lat": -37.41,
+      "lon": -59.17,
+      "desvioResidual": 3.35,
+      "pendienteP95": 3.63,
+      "rangoP2P98": 24.5,
+      "media": 247,
+      "cumple": true,
+      "esSierra": false
+    },
+    {
+      "id": "tandil-SE",
+      "zona": "Tandil",
+      "lat": -37.45,
+      "lon": -59.21,
+      "desvioResidual": 3.06,
+      "pendienteP95": 3.3,
+      "rangoP2P98": 17.6,
+      "media": 236,
+      "cumple": true,
+      "esSierra": false
+    },
+    {
+      "id": "tandil-llano",
+      "zona": "Tandil",
+      "lat": -37.21,
+      "lon": -59.21,
+      "desvioResidual": 1.66,
+      "pendienteP95": 2.43,
+      "rangoP2P98": 8.9,
+      "media": 165,
+      "cumple": false,
+      "esSierra": false
+    },
+    {
+      "id": "balcarce-SO",
+      "zona": "Balcarce",
+      "lat": -38.04,
+      "lon": -58.47,
+      "desvioResidual": 4.04,
+      "pendienteP95": 3.61,
+      "rangoP2P98": 26,
+      "media": 122,
+      "cumple": true,
+      "esSierra": false
+    },
+    {
+      "id": "balcarce-N",
+      "zona": "Balcarce",
+      "lat": -37.86,
+      "lon": -58.4,
+      "desvioResidual": 3.49,
+      "pendienteP95": 3.74,
+      "rangoP2P98": 23.5,
+      "media": 143,
+      "cumple": true,
+      "esSierra": false
+    },
+    {
+      "id": "balcarce-sierra",
+      "zona": "Balcarce",
+      "lat": -37.88,
+      "lon": -58.36,
+      "desvioResidual": 34.15,
+      "pendienteP95": 41.83,
+      "rangoP2P98": 179.3,
+      "media": 196,
+      "cumple": true,
+      "esSierra": true
+    },
+    {
+      "id": "ventana-O",
+      "zona": "Ventana",
+      "lat": -38.19,
+      "lon": -62.1,
+      "desvioResidual": 3.58,
+      "pendienteP95": 3.48,
+      "rangoP2P98": 22.9,
+      "media": 283,
+      "cumple": true,
+      "esSierra": false
+    },
+    {
+      "id": "ventana-E",
+      "zona": "Ventana",
+      "lat": -38.25,
+      "lon": -61.75,
+      "desvioResidual": 4.91,
+      "pendienteP95": 4.48,
+      "rangoP2P98": 45,
+      "media": 218,
+      "cumple": true,
+      "esSierra": true
+    }
+  ],
+  "vaguadasPrincipales": [
+    {
+      "id": "V1",
+      "cuencaMaxHa": 559.2,
+      "largoEnCampoM": 3637
+    },
+    {
+      "id": "V2",
+      "cuencaMaxHa": 132.8,
+      "largoEnCampoM": 2256
+    },
+    {
+      "id": "V3",
+      "cuencaMaxHa": 84,
+      "largoEnCampoM": 1146
+    },
+    {
+      "id": "V4",
+      "cuencaMaxHa": 64.4,
+      "largoEnCampoM": 1199
+    },
+    {
+      "id": "V5",
+      "cuencaMaxHa": 49.9,
+      "largoEnCampoM": 512
+    },
+    {
+      "id": "V6",
+      "cuencaMaxHa": 29.4,
+      "largoEnCampoM": 729
+    }
+  ],
+  "corredores": [
+    {
+      "id": "C1",
+      "UNIDAD": "corr-herb",
+      "anchoM": 44,
+      "rumboGrados": 159,
+      "cruza": [
+        {
+          "vaguada": "V1",
+          "anguloGrados": 55,
+          "cuencaHa": 494.2
+        },
+        {
+          "vaguada": "V3",
+          "anguloGrados": 51,
+          "cuencaHa": 80.2
+        },
+        {
+          "vaguada": "V4",
+          "anguloGrados": 78,
+          "cuencaHa": 17.6
+        },
+        {
+          "vaguada": "V5",
+          "anguloGrados": 60,
+          "cuencaHa": 47.5
+        },
+        {
+          "vaguada": "V6",
+          "anguloGrados": 87,
+          "cuencaHa": 18.5
+        }
+      ],
+      "supHa": 11.125
+    },
+    {
+      "id": "C2",
+      "UNIDAD": "corr-le",
+      "anchoM": 36,
+      "rumboGrados": 66,
+      "cruza": [
+        {
+          "vaguada": "V1",
+          "anguloGrados": 66,
+          "cuencaHa": 95.1
+        },
+        {
+          "vaguada": "V2",
+          "anguloGrados": 87,
+          "cuencaHa": 36.2
+        },
+        {
+          "vaguada": "V3",
+          "anguloGrados": 46,
+          "cuencaHa": 80.5
+        },
+        {
+          "vaguada": "V5",
+          "anguloGrados": 51,
+          "cuencaHa": 23.3
+        }
+      ],
+      "supHa": 8.062
+    },
+    {
+      "id": "C3",
+      "UNIDAD": "corr-herb",
+      "anchoM": 56,
+      "rumboGrados": 39,
+      "cruza": [
+        {
+          "vaguada": "V1",
+          "anguloGrados": 51,
+          "cuencaHa": 244.7
+        },
+        {
+          "vaguada": "V2",
+          "anguloGrados": 90,
+          "cuencaHa": 82.7
+        },
+        {
+          "vaguada": "V4",
+          "anguloGrados": 42,
+          "cuencaHa": 10.8
+        },
+        {
+          "vaguada": "V6",
+          "anguloGrados": 33,
+          "cuencaHa": 22.6
+        }
+      ],
+      "supHa": 14.0645
+    }
+  ],
+  "macroambientes": [
+    {
+      "lote": "L1a",
+      "zona": "z1",
+      "pendienteMediaPct": 2.13
+    },
+    {
+      "lote": "L1b",
+      "zona": "z2",
+      "pendienteMediaPct": 2.86
+    },
+    {
+      "lote": "L1c",
+      "zona": "z1",
+      "pendienteMediaPct": 2.12
+    },
+    {
+      "lote": "L2a",
+      "zona": "z3",
+      "pendienteMediaPct": 3.04
+    },
+    {
+      "lote": "L2b",
+      "zona": "z1",
+      "pendienteMediaPct": 2.62
+    },
+    {
+      "lote": "L2c",
+      "zona": "z2",
+      "pendienteMediaPct": 2.77
+    },
+    {
+      "lote": "L3a",
+      "zona": "z2",
+      "pendienteMediaPct": 2.85
+    },
+    {
+      "lote": "L3b",
+      "zona": "z3",
+      "pendienteMediaPct": 4.15
+    },
+    {
+      "lote": "L3c",
+      "zona": "z3",
+      "pendienteMediaPct": 3.31
+    }
+  ],
+  "validacion": {
+    "inicial": {
+      "sumaHa": 491.87,
+      "puntosMuestreados": 56867,
+      "puntosAmbiguos": 0
+    },
+    "multifuncional": {
+      "sumaHa": 491.87,
+      "puntosMuestreados": 56867,
+      "puntosAmbiguos": 0
+    }
+  }
+}
